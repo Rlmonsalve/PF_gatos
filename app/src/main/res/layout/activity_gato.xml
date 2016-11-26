@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gato"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlmonsalve.pf_gatos.GatoActivity">
+
+    <SurfaceView
+        android:id="@+id/cameraview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="350dp"
+        android:layout_height="305dp"
+        android:src="@drawable/cat_model_1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="20dp"
+        android:indeterminate="false"
+        android:max="200"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:progress="1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        app:srcCompat="@color/white_semi_transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/imageView3" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hsv"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="x5"
+                android:textSize="20dp"
+                android:gravity="right|bottom"
+                android:textColor="@color/primary_text"
+                android:textAllCaps="false"
+                android:tag="0"
+                android:background="@drawable/interrogacion_gris"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/imageAct1" />
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="x5"
+                android:textSize="20dp"
+                android:gravity="right|bottom"
+                android:textColor="@color/primary_text"
+                android:textAllCaps="false"
+                android:tag="1"
+                android:background="@drawable/interrogacion_gris"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/imageAct2" />
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="x5"
+                android:textSize="20dp"
+                android:gravity="right|bottom"
+                android:textColor="@color/primary_text"
+                android:textAllCaps="false"
+                android:tag="2"
+                android:background="@drawable/interrogacion_gris"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/imageAct3" />
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="x5"
+                android:textSize="20dp"
+                android:gravity="right|bottom"
+                android:textColor="@color/primary_text"
+                android:textAllCaps="false"
+                android:tag="3"
+                android:background="@drawable/interrogacion_gris"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/imageAct4" />
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="x5"
+                android:textSize="20dp"
+                android:gravity="right|bottom"
+                android:textColor="@color/primary_text"
+                android:textAllCaps="false"
+                android:tag="4"
+                android:background="@drawable/interrogacion_gris"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/imageAct5" />
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="x5"
+                android:textSize="20dp"
+                android:gravity="right|bottom"
+                android:textColor="@color/primary_text"
+                android:textAllCaps="false"
+                android:tag="5"
+                android:background="@drawable/interrogacion_gris"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/imageAct6" />
+
+            <!-- child views in here -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/corazon2"
+        android:id="@+id/heartImage"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/icon"
+        android:layout_alignLeft="@+id/icon"
+        android:layout_alignStart="@+id/icon"
+        android:layout_marginLeft="89dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/sadcat"
+        android:id="@+id/sadImage"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/icon"
+        android:layout_alignLeft="@+id/icon"
+        android:layout_alignStart="@+id/icon"
+        android:layout_marginLeft="89dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/corazon2"
+        android:id="@+id/heartImage2"
+        android:visibility="invisible"
+        android:layout_marginTop="41dp"
+        android:layout_alignTop="@+id/heartImage"
+        android:layout_toRightOf="@+id/heartImage"
+        android:layout_toEndOf="@+id/heartImage" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/corazon2"
+        android:id="@+id/heartImage3"
+        android:visibility="invisible"
+        android:layout_marginTop="16dp"
+        android:layout_alignTop="@+id/heartImage"
+        android:layout_toRightOf="@+id/heartImage2"
+        android:layout_toEndOf="@+id/heartImage2" />
+
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kitty Quest</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_password_confirm">Confirmar Contraseña</string>
+    <string name="hint_name">Nombre</string>
+    <string name="btn_login">ENTRAR</string>
+    <string name="btn_register">CREAR CUENTA</string>
+    <string name="btn_link_to_register">CREAR CUENTA NUEVA</string>
+    <string name="btn_link_to_login">Volver al inicio</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="btn_logout">CERRAR SESION</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">595809413954798</string>
+    <string-array name="gatos_array">
+        <item>Selecciona uno</item>
+        <item>Electrón</item>
+        <item>Acuarela</item>
+        <item>Maléfico</item>
+        <item>No lo conozco</item>
+    </string-array>
+    <string name="fb_login_protocol_scheme">fb595809413954798</string>
+
+    <string name="text_test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet semper malesuada.
+        Donec at nunc in diam egestas facilisis. Donec maximus rutrum ipsum, vitae ultrices elit gravida eget.
+        In condimentum eu urna quis iaculis. Nulla sodales hendrerit turpis ut euismod. Aliquam elementum vitae eros quis congue.
+        Morbi id nisl aliquam, posuere elit quis, imperdiet ipsum. Quisque rhoncus, lacus id vehicula interdum, elit erat faucibus lectus,
+        et rhoncus leo elit et nisl. In sodales scelerisque purus eu congue. Curabitur at ex sed lacus consequat dapibus vitae efficitur nulla.
+        Nam eu pulvinar magna. Aenean sit amet nulla quis massa feugiat bibendum egestas id velit. Etiam suscipit, ipsum vel auctor iaculis,
+        augue ipsum luctus orci, at sollicitudin urna tellus quis neque. Ut nec tincidunt mauris.</string>
+    <string name="tutorial_1">..Hay varias formas de interactuar con los gatos de uninorte dentro del juego?\n\n
+    Camina por la universidad y encuentra gatos virtuales. Tócalos en el mapa para alimentarlos y jugar con ellos.\n\n
+    Si te encuentras con un gato real, ¡Abre la cámara y tómale una foto! Puedes luego decorarlas y subirlas a las redes sociales.</string>
+    <string name="tutorial_2">... Para esta actividad, te proporcionamos alimentos y juguetes apropiados para los gatos?\n\n
+    Muchas de las preparaciones que nosotros consumimos resultan dañinas para los gatos.\n\n
+    ¡Intenta no alimentar a los gatos de nuestra universidad, puedes comunicarte con Felinorte para conocer los detalles.</string>
+    <string name="tutorial_3">... Puedes hacer volar tu imaginación decorando a nuestros gatos?\n\n
+    ¡Colecciona decoraciones y añadelas a las fotos que tomes! ¡Súbelas a las redes sociales, nos encantaria verlas!\n\n
+    Si ves a un gato que no conozcas, sube su foto seleccionando la opción "no lo conozco" de la lista despeglable.\n\n
+    Así, nos ayudas a combatir el abandono de gatos en el campus.</string>
+    <string name="tutorial_4">... Puedes apadrinar uno de nuestros gatos virtuales?\n\n
+    Esto te permitirá interactuar de manera más constante con tu gato favorito.\n\n
+    Toca la casilla del gato que quieras apadrinar, luego toca el botón de corazón y ¡listo!</string>
+    <string name="gato_info_1"><b>Sexo:</b> Masculino\n
+    <b>Edad:</b> 4 años\n
+    <b>Zona:</b> Bloques A y B\n
+    <b>Esterilizado:</b> Si</string>
+    <string name="gato_info_2"><b>Sexo:</b> Femenino\n
+    <b>Edad:</b> 4 años\n
+    <b>Zona:</b> Bloque G\n
+    <b>Esterilizado:</b> Si</string>
+    <string name="gato_info_3"><b>Sexo:</b> Masculino\n
+    <b>Edad:</b> 4 años\n
+    <b>Zona:</b> Zona Bambú\n
+    <b>Esterilizado:</b> Si</string>
+    <string name="electron_info">Se mueve normalmente entre el primer, segundo y tercer piso del bloque A, al bloque c.
+        Las señoras del aseo de Servicios Generales le llaman por otro nombre, Timmy. Es cariñoso, amable pero no le gusta que lo carguen mucho.
+        Es la imagen de Felinorte, uno de los gatos más viejos de la Universidad, ama estar en el aire, que lo consientan y odia la lluvia.</string>
+    <string name="acuarela_info">Ella es una de las gatas mas viejas de la universidad, su colonia original era en el bloque I
+        pero por causa de abandono otros gatos le han quitado su territorio, lo que la hizo emigrar hacia una nueva colonia.
+        Le gusta que la consientan, pero no intentes cargarla no le gusta.</string>
+    <string name="malefico_info">El es un gato que no es sociable, es decir le gusta estar en la zona Bambú (Comedor de estudiantes),
+        Express y parqueadero pero no le gusta que no toquen mucho, te puede rasguñar, recomiendo no intentar tocarlo.</string>
+    <string name="plaza_k_info">Bajo la sombra de la Ceiba Blanca (Hura crepitans) podrás apreciar una de las obras de ingeniería más ecológicas del campus. El «Edificio Multipropósito» fue erigido siguiendo estándares para la construcción ambientalmente sostenible y posee características como la presencia de una doble piel para mitigar la radiación solar en su interior, la captación de aguas pluviales y de condensación de aires acondicionados para el ahorro en el consumo de agua y la utilización de materiales de larga vida útil y resistentes a las condiciones de salinidad y humedad del ambiente.
+</string>
+    <string name="roble_amarillo_info">Nombre común: Roble amarillo o Guayacán amarillo\n
+Familia: Bignoniaceae\n
+Origen: Nativa\n
+Distribución: De México a Perú y Trinidad\n\n
+
+Es el árbol nacional de Venezuela. El nombre del epíteto se deriva de las palabras griegas chryso- (dorado, amarillo) y antho (flor), de tal forma que el nombre científico significa: “con flores amarillas o doradas”.</string>
+    <string name="plaza_idiomas">En la actualidad nos enfrentamos a enormes presiones que pretenden imponer la uniformidad en vez de la diversidad, uniformidad tanto biológica como cultural. Cuando perdemos especies se llama pérdida de biodiversidad y no se trata sólo de la pérdida más llamativa de ballenas, delfines y tigres, sino también de esos animales, plantas y árboles que tradicionalmente han aportado al sustento de nuestras comunidades.\n\n
+Los árboles de esta zona del campus tienen su origen en Asia, Oceanía y América central (Cuba y Puerto Rico).</string>
+    <string name="frente_plaza_info">El campus de la Universidad del Norte está ubicado en el bioma Bosque Seco Tropical (BST),el cual se extiende desde las tierras bajas de México hasta Bolivia y Brasil. La vegetación del BST presenta adaptaciones como la pérdida de hojas durante la sequía, la modificación de hojas a espinas y la presencia de aguijones en los troncos como respuesta al déficit de agua. El BST presta importantes servicios como la estabilización de suelos, regulación hídrica y climática, provisión de alimentos y madera. Mantiene especies de insectos que ayudan en el control de plagas y vectores de enfermedades en zonas agrícolas y ganaderas cercanas.\n\n
+En esta zona del campus abundan especies arbóreas características del BST como el roble morado, la ceiba blanca y la ceiba roja.</string>
+    <string name="text_creditos">Desarrollado por:\nNayib Elias\nDaniela Gomez\nRoberto Monsalve</string>
+    <string name="licencia_stickerView">The MIT License (MIT)\n\n
+
+ Copyright (c) 2015 nimengbo\n\n
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:\n\n
+
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.\n\n
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.</string>
+</resources>

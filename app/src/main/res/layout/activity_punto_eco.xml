@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/popup_bg"
+    android:orientation="vertical"
+    android:padding="16sp" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/eco_point_img"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/imageViewPunto" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/textTitlePunto"
+        android:layout_marginBottom="8dp"
+        tools:textStyle="bold" />
+
+    <TextView
+        android:text="@string/text_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/textTextPunto"
+        android:layout_marginBottom="16dp"
+        android:maxLines = "5"
+        android:scrollbars = "vertical"/>
+
+    <TextView
+        android:text="Visita este sitio para recolectar:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/textText1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/interrogacion_gris"
+            android:id="@+id/imageItem1"
+            android:padding="8dp"
+            android:layout_weight="1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/interrogacion_gris"
+            android:id="@+id/imageItem2"
+            android:padding="8dp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/close_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="16dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@color/info_title_text"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:text="Recolectar"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
